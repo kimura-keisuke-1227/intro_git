@@ -1,0 +1,59 @@
+* {
+  justify-content: center;
+  text-align: center;
+}
+
+.mailadressbox {
+  width: 400px;
+  height: 50px;
+  border-radius: 20px;
+  text-align: left;
+  color: #808080;
+}
+
+#nav {
+  list-style: none;
+  overflow: hidden;
+}
+
+#nav li {
+  width: 140px;
+  text-align: center;
+  /* background-color: #333; */
+  float: left;
+  margin: 15px;
+}
+
+#nav li a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+}
+
+#title {
+  display: flex;
+  justify-content: space-between;
+  /* width: 30%; */
+}
+
+small {
+  justify-content: left;
+  text-align: left;
+}
+
+.contactbutton {
+  width: 300px;
+  height: 70px;
+  color: white;
+  font-weight: bold;
+  background-color: red;
+  border-radius: 10px;
+}
+
+#courses p {
+  text-align: left;
+}
+
+#title h2 {
+  margin: 10px 30px;
+}
