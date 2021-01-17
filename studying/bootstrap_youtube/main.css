@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+}
+
+div {
+  display: flex;
+}
+
+header {
+  height: 300px;
+}
+
+body {
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+}
+
+nav {
+  width: 150px;
+}
+
+aside {
+  width: 20 0px;
+}
+
+footer {
+  height: 200px;
+}

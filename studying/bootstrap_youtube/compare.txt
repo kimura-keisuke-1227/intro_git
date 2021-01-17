@@ -1,0 +1,35 @@
+<!-- Navigation -->
+17 <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+18 <div class="container-fluid">
+19 <a class="navbar-brand" href="#"><img src="img/logo.png"></a>
+20 <button class="navbar-toggler" type="button" data-toggle="collapse
+data-target="#navbarResponsive">
+21
+<span class="navbar-toggler-icon"></span>
+22 </button>
+23 <div class="collapse navbar-collapse" id="navbarResponsive">
+24
+<ul class="navbar-nav ml-auto">
+25
+<li class="nav-item active">
+<a class="nav-link" href="#">Home</a>
+27
+</li>
+28
+qi class="nav-item">
+29
+<a class="nav-link" href="#">About</a>
+30
+</li>
+31
+<li class="nav-item">
+32
+<a class="nav-link" href="#">Services</a>
+33
+</li>
+34
+<li class="nav-item">
+dividuals and 35
+<a class="nav-link" href="#">Team</a>
+36
+</li>
