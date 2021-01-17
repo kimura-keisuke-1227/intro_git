@@ -20,12 +20,38 @@
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="css/main.css" />
 
-    <title>Bootstreap Rich Responsive Web Design</title>
+    <title>ニッチプランニング【公式】土浦市・つくば市の建築工事・工務店</title>
 
     <link />
   </head>
   <body>
     <!-- Navigation -->
+    <div class="fixed-top">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Mieruka</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="#"
+              >ユーザ<span class="sr-only">(current)</span></a
+            >
+            <a class="nav-item nav-link" href="#">新規プロジェクト</a>
+            <a class="nav-item nav-link" href="#">モーメント</a>
+            <a class="nav-item nav-link" href="#">アプリ紹介</a>
+          </div>
+        </div>
+      </nav>
+    </div>
     <div class="fixed-top">
       <nav class="navbar navbar-expand-md navbar-light bg-light">
         <a class="navbar-brand" href="#"><img src="img/logo.png" /></a>
@@ -386,13 +412,5 @@
       defer
       src="https://use.fontawesome.com/releases/v5.7.2/js/all.js"
     ></script>
-
-    <script>
-      $(".navbar-nav>li>a , .dropdown-menu>a").on("click", function () {
-        if (this.id != "navbarDropdown") {
-          $(".navbar-collapse").collapse("hide");
-        }
-      });
-    </script>
   </body>
 </html>

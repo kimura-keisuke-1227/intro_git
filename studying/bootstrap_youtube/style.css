@@ -135,10 +135,6 @@ boty {
 .fa-youtube:hover {
   color: #d5d5d5;
 }
-
-#slides {
-  padding-top: 84.59px;
-}
 footer {
   background-color: #3f3f3f;
   color: #d5d5d5;
@@ -233,7 +229,7 @@ hr.light-100 {
 
   .social a {
     font-size: 2rem;
-    padding: 0.7rem;
+    padding: 0.7fixed-top"rem;
   }
 }
 
