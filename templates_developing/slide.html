@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>ニッチプランニング【公式】土浦市・つくば市の建築工事・工務店</title>
+    <meta
+      name="description"
+      content="土浦市・つくば市を中心に、リフォーム・ハウスクリーニングを承ります。設備工事・内装工事・外装工事・営繕清掃など全てサポート！お客様のご要望に応じて、ご自宅・ビル・工場・施設のメンテナンスからリフォームまで あらゆる仕事のお手伝いをいたします。整理収納のご相談も承ります。"
+    />
+    <meta
+      name="keywords"
+      content="リフォーム,ハウスクリーニング,整理収納,建築工事,工務店,土浦市,つくば市"
+    />
+    <meta name="robots" content="index,follow" />
+    <meta name="robots" content="noydir" />
+
+    <link
+      rel="stylesheet"
+      href="https://www.nichepl.jp/css/style.css"
+      type="text/css"
+    />
+    <link
+      rel="shortcut icon"
+      type="image/vnd.microsoft.ico"
+      href="https://www.nichepl.jp/favicon.ico"
+    />
+
+    <link rel="stylesheet" href="css/jquery.fancybox.css" type="text/css" />
+    <script
+      type="text/javascript"
+      src="https://www.nichepl.jp/js/jquery-1.12.4.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://www.nichepl.jp/js/jquery.cross-slide.min.js"
+    ></script>
+
+    <script type="text/javascript" src="js/jquery.fancybox.js"></script>
+    <script type="text/javascript">
+      $(function () {
+        $("#slide").crossSlide(
+          {
+            sleep: 4,
+            fade: 2,
+          },
+          [
+            { src: "https://www.nichepl.jp/images/slide1.jpg" },
+            { src: "https://www.nichepl.jp/images/slide2.jpg" },
+            { src: "https://www.nichepl.jp/images/slide3.jpg" },
+          ]
+        );
+      });
+    </script>
+
+    <script type="text/javascript">
+      $(function () {
+        $(".fancybox").fancybox();
+      });
+    </script>
+  </head>
+  <body>
+    <div id="slide" style="overflow: hidden; padding: 0px; position: relative">
+      <img
+        src="https://www.nichepl.jp/images/slide1.jpg"
+        style="
+          position: absolute;
+          visibility: hidden;
+          top: 0px;
+          left: 0px;
+          border: 0px;
+        "
+      /><img src="https://www.nichepl.jp/images/slide2.jpg" /><img
+        src="https://www.nichepl.jp/images/slide3.jpg"
+        style="
+          position: absolute;
+          visibility: visible;
+          top: 0px;
+          left: 0px;
+          border: 0px;
+          opacity: 1;
+        "
+      />
+    </div>
+  </body>
+</html>

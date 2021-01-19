@@ -1,0 +1,800 @@
+/* html, body, div,
+h1, h2, h3, p {
+    margin: 0 auto;
+    padding: 0;
+} */
+
+body {
+  margin: 0 auto;
+  padding: 0;
+}
+
+.BodyMain {
+  background-color: #fff;
+  margin: 0 auto;
+  text-align: center;
+  font-family: "¥Ò¥é¥®¥Î³Ñ¥´ Pro W3", "Hiragino Kaku Gothic Pro", HiraKakuPro-W3,
+    "¥á¥¤¥ê¥ª", Meiryo, verdana, sans-serif;
+  color: #666;
+  -webkit-text-size-adjust: 100%;
+  width: 980px;
+}
+
+a {
+  text-decoration: none;
+}
+/* 【開始】【000】ヘッダー */
+/* header h1,
+header h1,
+header h1,
+header h1,
+header h1,
+header h1, */
+header,
+header h1,
+header div,
+header img,
+header p {
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/* 共通　ここまで */
+
+header h1 {
+  margin: 0 auto;
+  padding: 3px 0;
+  font-size: 75%;
+  font-weight: normal;
+  text-align: center;
+  line-height: 25px;
+  letter-spacing: 0.07em;
+  background: #87c12d;
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#a0da46),
+    color-stop(75%, #87c12d)
+  );
+  background-image: -webkit-linear-gradient(#a0da46, #87c12d 75%);
+  background-image: -moz-linear-gradient(#a0da46, #87c12d 75%);
+  background-image: -ms-linear-gradient(#a0da46, #87c12d 75%);
+  background-image: -o-linear-gradient(#a0da46, #87c12d 75%);
+  background-image: linear-gradient(#a0da46, #87c12d 75%);
+  border-top: 3px double #fff;
+  color: #fff;
+}
+.titleTop {
+  width: 960px;
+  height: 155px;
+  margin-top: 6px;
+}
+
+.logo {
+  width: 150px;
+  float: left;
+}
+
+.titleTop .infoTxt {
+  padding: 10px 0 8px 0;
+  font-size: 90%;
+}
+.titleTop .title {
+  width: 500px;
+  float: left;
+  padding-top: 5px;
+}
+
+.titleTop .info {
+  width: 305px;
+  float: right;
+}
+
+header .lineLink {
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+  color: #fff;
+  width: 200px;
+  height: 40px;
+  margin: 8px 2px 13px 0;
+  line-height: 42px;
+  border-radius: 2px;
+  text-align: center;
+  vertical-align: middle;
+  overflow: hidden;
+  font-size: 97%;
+  font-weight: bold;
+  background-image: -webkit-linear-gradient(#24d324 0%, #00b900 100%);
+  background-image: linear-gradient(#24d324 0%, #00b900 100%);
+  text-shadow: 1px 1px 1px rgba(102, 102, 102, 0.66);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.28);
+}
+
+header .inquiryLink {
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+  color: #fff;
+  width: 200px;
+  height: 40px;
+  margin-right: 2px;
+  line-height: 40px;
+  border-radius: 2px;
+  text-align: center;
+  vertical-align: middle;
+  overflow: hidden;
+  font-weight: bold;
+  background-image: -webkit-linear-gradient(#f8c666 0%, #ed971a 100%);
+  background-image: linear-gradient(#f8c666 0%, #ed971a 100%);
+  text-shadow: 1px 1px 1px rgba(102, 102, 102, 0.66);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.28);
+}
+
+/* 【終了】【000】ヘッダー */
+
+/* 【100】メニューここから */
+.menu {
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+  color: #fff;
+  width: 190px;
+  height: 50px;
+  margin-right: 2px;
+  line-height: 50px;
+  border-radius: 2px;
+  text-align: center;
+  vertical-align: middle;
+  overflow: hidden;
+  font-weight: bold;
+  background-image: -webkit-linear-gradient(#4073d5 0%, #244b96 100%);
+  background-image: linear-gradient(#4073d5 0%, #244b96 100%);
+  text-shadow: 1px 1px 1px rgba(102, 102, 102, 0.66);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.28);
+}
+
+.menu:active {
+  /*²¡¤·¤¿¤È¤­*/
+  -ms-transform: translateY(2px);
+  -webkit-transform: translateY(2px);
+  transform: translateY(2px); /*  沈むように */
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.15);
+  background-image: -webkit-linear-gradient(#5484de 0%, #244b96 100%);
+  background-image: linear-gradient(
+    #5484de 0%,
+    #244b96 100%
+  ); /*¥°¥é¥Ç¡¼¥·¥ç¥ó¤òÌÀ¤ë¤¯*/
+}
+
+/*【100】 メニューここまで */
+
+/* 【110】サブタイトル　開始 */
+
+.SubTitle {
+  width: 200px;
+  text-align: center;
+  color: #fff;
+  font-size: 105%;
+  font-weight: bold;
+  position: relative;
+  padding: 0.4em 1em 0.27em 1em;
+  background-image: -webkit-linear-gradient(#dff3b8 0%, #87c12d 100%);
+  background-image: linear-gradient(#dff3b8 0%, #87c12d 100%);
+  text-shadow: 1px 1px 1px rgba(102, 102, 102, 0.66);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.22);
+}
+
+.SubTitle::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  content: "";
+  width: 0;
+  border-width: 0 16px 16px 0;
+  border-style: solid;
+  border-color: #fff #fff #dcefb6 #dcefb6;
+  box-shadow: -1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+/* 【110】サブタイトル終了 */
+
+/* 【120】バックインフォここから */
+
+.backinfo {
+  width: 680px;
+  text-align: center;
+  color: #fff;
+  font-size: 110%;
+  font-weight: bold;
+  border-radius: 2px;
+  position: relative;
+  padding: 10px 0;
+  background-image: -webkit-linear-gradient(#4073d5 0%, #244b96 100%);
+  background-image: linear-gradient(#4073d5 0%, #244b96 100%);
+  text-shadow: 1px 1px 1px rgba(102, 102, 102, 0.66);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.28);
+}
+
+.backinfo:before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 10px 10px 0;
+  border-color: transparent;
+  border-right-color: #a6a6a6;
+}
+/* 【120】バックインフォここまで */
+
+/* 【130】LINEリンクここから */
+.line-btn .lineLink {
+  /* display: inline-block; */
+  position: relative;
+  text-decoration: none;
+  color: #fff;
+  width: 200px;
+  height: 40px;
+  margin: 8px 2px 13px 0;
+  line-height: 42px;
+  border-radius: 2px;
+  text-align: center;
+  vertical-align: middle;
+  overflow: hidden;
+  font-size: 97%;
+  font-weight: bold;
+  background-image: -webkit-linear-gradient(#24d324 0%, #00b900 100%);
+  background-image: linear-gradient(#24d324 0%, #00b900 100%);
+  text-shadow: 1px 1px 1px rgba(102, 102, 102, 0.66);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.28);
+}
+
+.lineLink a {
+  color: #fff;
+}
+
+.lineLink:active {
+  -ms-transform: translateY(2px);
+  -webkit-transform: translateY(2px);
+  transform: translateY(2px); /* 沈むように */
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.15);
+  background-image: -webkit-linear-gradient(#4cda4c 0%, #00b900 100%);
+  background-image: linear-gradient(
+    #4cda4c 0%,
+    #00b900 100%
+  ); /*グラデーションを明るく*/
+}
+/* 【130】LINEリンクここまで */
+
+/* 【150】お問い合わせここから */
+.inquiryLink {
+  /* display: inline-block; */
+  position: relative;
+  text-decoration: none;
+  color: #fff;
+  width: 200px;
+  height: 40px;
+  margin-right: 2px;
+  line-height: 40px;
+  border-radius: 2px;
+  text-align: center;
+  vertical-align: middle;
+  overflow: hidden;
+  font-weight: bold;
+  background-image: -webkit-linear-gradient(#f8c666 0%, #ed971a 100%);
+  background-image: linear-gradient(#f8c666 0%, #ed971a 100%);
+  text-shadow: 1px 1px 1px rgba(102, 102, 102, 0.66);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.28);
+}
+.inquiryLink a {
+  color: #fff;
+}
+.inquiryLink:active {
+  /*押したとき*/
+  -ms-transform: translateY(2px);
+  -webkit-transform: translateY(2px);
+  transform: translateY(2px); /*沈むように*/
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.15);
+  background-image: -webkit-linear-gradient(#f4cf87 0%, #ed971a 100%);
+  background-image: linear-gradient(
+    #f4cf87 0%,
+    #ed971a 100%
+  ); /*グラデーションを明るく*/
+}
+/* 【150】お問い合わせここまで */
+
+/* 【開始】【160】backobi */
+.backobi {
+  text-align: center;
+  width: 250px;
+  color: #fff;
+  font-size: 110%;
+  font-weight: bold;
+  border-radius: 2px;
+  position: relative;
+  padding: 10px 0;
+  background-image: -webkit-linear-gradient(#a0da46 0%, #87c12d 100%);
+  background-image: linear-gradient(#a0da46 0%, #87c12d 100%);
+  text-shadow: 1px 1px 1px rgba(102, 102, 102, 0.66);
+}
+/* 【終了】【160】backobi */
+
+/* 【200】LINEと問い合わせ横置き ここから*/
+/* LINEリンクここから */
+.btn-cl-container {
+  display: block;
+}
+
+.btn-cl-container .lineLink {
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+  color: #fff;
+  width: 200px;
+  height: 40px;
+  margin: 8px 2px 13px 0;
+  line-height: 42px;
+  border-radius: 2px;
+  text-align: center;
+  vertical-align: middle;
+  overflow: hidden;
+  font-size: 97%;
+  font-weight: bold;
+  background-image: -webkit-linear-gradient(#24d324 0%, #00b900 100%);
+  background-image: linear-gradient(#24d324 0%, #00b900 100%);
+  text-shadow: 1px 1px 1px rgba(102, 102, 102, 0.66);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.28);
+}
+
+.btn-cl-container .inquiryLink {
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+  color: #fff;
+  width: 200px;
+  height: 40px;
+  margin-right: 2px;
+  line-height: 40px;
+  border-radius: 2px;
+  text-align: center;
+  vertical-align: middle;
+  overflow: hidden;
+  font-weight: bold;
+  background-image: -webkit-linear-gradient(#f8c666 0%, #ed971a 100%);
+  background-image: linear-gradient(#f8c666 0%, #ed971a 100%);
+  text-shadow: 1px 1px 1px rgba(102, 102, 102, 0.66);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.28);
+}
+
+.btn-cl-container .lineLink a {
+  color: #fff;
+}
+
+.btn-cl-container .lineLink:active {
+  -ms-transform: translateY(2px);
+  -webkit-transform: translateY(2px);
+  transform: translateY(2px); /* 沈むように */
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.15);
+  background-image: -webkit-linear-gradient(#4cda4c 0%, #00b900 100%);
+  background-image: linear-gradient(
+    #4cda4c 0%,
+    #00b900 100%
+  ); /*グラデーションを明るく*/
+}
+
+.btn-cl-container .inquiryLink a {
+  color: #fff;
+}
+.btn-cl-container .inquiryLink:active {
+  /*押したとき*/
+  -ms-transform: translateY(2px);
+  -webkit-transform: translateY(2px);
+  transform: translateY(2px); /*沈むように*/
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.15);
+  background-image: -webkit-linear-gradient(#f4cf87 0%, #ed971a 100%);
+  background-image: linear-gradient(
+    #f4cf87 0%,
+    #ed971a 100%
+  ); /*グラデーションを明るく*/
+}
+
+/* 【200】LINEと問い合わせ横置き ここまで*/
+
+/* 【210】【開始】　募集  */
+.ya {
+  position: relative;
+  display: inline-block;
+  padding-left: 20px;
+  margin-left: 20px;
+  color: #666;
+  vertical-align: middle;
+  text-decoration: none;
+  font-size: 15px;
+}
+.titleBottom .ya {
+  margin-left: 12px;
+}
+
+.ya::before,
+.ya::after {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  content: "";
+  vertical-align: middle;
+}
+.ya::before {
+  width: 18px;
+  height: 18px;
+  bottom: 2px;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background: #87c12d;
+}
+.ya::after {
+  left: 3px;
+  bottom: 2px;
+  width: 7px;
+  height: 7px;
+  border-top: 2px solid #fff;
+  border-right: 2px solid #fff;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.yaT {
+  position: relative;
+  display: inline-block;
+  padding-left: 25px;
+  margin-left: 10px;
+  color: #666;
+  vertical-align: middle;
+  text-decoration: none;
+  font-size: 15px;
+  text-indent: -9999px;
+}
+.yaT::before,
+.yaT::after {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  content: "";
+  vertical-align: middle;
+}
+.yaT::before {
+  width: 18px;
+  height: 18px;
+  bottom: 2px;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background: #87c12d;
+}
+.yaT::after {
+  left: 3px;
+  bottom: 2px;
+  width: 7px;
+  height: 7px;
+  border-top: 2px solid #fff;
+  border-right: 2px solid #fff;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.yaR {
+  margin: 0 5px 4px 20px;
+  vertical-align: middle;
+}
+
+/* 【210】【終了】　募集 */
+
+/* 【300】【開始】 トピックス*/
+.backcopy {
+  background: url(/images/clover.png) no-repeat left;
+  border-bottom: solid 4px #ed971a;
+  position: relative;
+  font-size: 145%;
+  font-weight: bold;
+  text-align: left;
+  margin: 40px 0 30px 0;
+  height: 50px;
+}
+
+.backcopy:after {
+  position: absolute;
+  content: "";
+  display: block;
+  border-bottom: solid 4px #ccc;
+  bottom: -4px;
+  width: 90%;
+}
+
+.topics {
+  width: 950px;
+  height: 300px;
+  vertical-align: top;
+  overflow: auto;
+  border: 1px solid #eaeaea;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  margin: 0 auto;
+  text-align: left;
+  line-height: 30px;
+}
+
+.topicsList span.pad1,
+.topicsList1 span.pad1 {
+  padding: 0 0 0 2.9em;
+}
+.topicsList span.pad2,
+.topicsList1 span.pad2 {
+  padding: 0 0 0 4.5em;
+}
+.topicsList span.pad3,
+.topicsList1 span.pad3 {
+  padding: 0 0 0 4em;
+}
+.topicsList span.pad4,
+.topicsList1 span.pad4 {
+  padding: 0 0 0 0.7em;
+}
+.topicsList a {
+  display: block;
+  border-bottom: 1px dotted #ccc;
+  padding: 0.7em 1em;
+}
+.topicsList a:hover {
+  background: #e7f7ce;
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#fff),
+    color-stop(60%),
+    color-stop(#e7f7ce)
+  );
+  background-image: -webkit-linear-gradient(#fff 60%, #e7f7ce);
+  background-image: -moz-linear-gradient(#fff 60%, #e7f7ce);
+  background-image: -ms-linear-gradient(#fff 60%, #e7f7ce);
+  background-image: -o-linear-gradient(#fff 60%, #e7f7ce);
+  background-image: linear-gradient(#fff 60%, #e7f7ce);
+  border-bottom: 1px dotted #ccc;
+  padding: 0.7em 1em;
+}
+.topicsList1 {
+  border-bottom: 1px dotted #ccc;
+  padding: 0.7em 1em;
+}
+.topicsTitle {
+  float: left;
+  width: 83%;
+  font-size: 120%;
+  text-align: left;
+  font-weight: bold;
+}
+.topicsDate {
+  float: right;
+  width: 16%;
+  font-size: 90%;
+  text-align: right;
+  padding-top: 3px;
+}
+.topicsTitle1 {
+  float: left;
+  width: 87.5%;
+  font-size: 117%;
+  text-align: left;
+  font-weight: bold;
+}
+.topicsDate1 {
+  float: right;
+  width: 11.5%;
+  font-size: 90%;
+  text-align: right;
+  padding-top: 3px;
+}
+
+.topics a {
+  text-decoration: none;
+  color: #666;
+}
+/* 【300】【終了】 トピックス*/
+
+/* 【400】【開始】一覧 */
+.main1 {
+  clear: both;
+  width: 960px;
+  padding-bottom: 10px;
+  margin: auto;
+}
+.backcopy {
+  background: url("/images/clover.png") no-repeat left;
+  border-bottom: solid 4px #ed971a;
+  position: relative;
+  font-size: 145%;
+  font-weight: bold;
+  text-align: left;
+  margin: 40px 0 30px 0;
+  height: 50px;
+}
+.backcopy:after {
+  position: absolute;
+  content: "";
+  display: block;
+  border-bottom: solid 4px #ccc;
+  bottom: -4px;
+  width: 90%;
+}
+.backcopy p {
+  padding: 10px 0 0 50px;
+}
+
+.backcopy div {
+  margin: 0 auto;
+}
+
+.main1 .clearfix p {
+  text-align: center;
+}
+.main1 .clearfix a {
+  text-decoration: none;
+  color: #666;
+}
+
+.work1 {
+  width: 188px;
+  float: left;
+  padding: 0.5em 0;
+  margin: 0 2px 4px 2px;
+  background: -webkit-repeating-linear-gradient(
+    -45deg,
+    #f7f8f8,
+    #f7f8f8 2px,
+    #f2f4f5 2px,
+    #f2f4f5 6px
+  );
+  background: repeating-linear-gradient(
+    -45deg,
+    #f7f8f8,
+    #f7f8f8 2px,
+    #f2f4f5 2px,
+    #f2f4f5 6px
+  );
+}
+.work2 {
+  width: 380px;
+  float: left;
+  padding: 0.5em 0;
+  margin: 0 2px 4px 2px;
+  background: -webkit-repeating-linear-gradient(
+    -45deg,
+    #f7f8f8,
+    #f7f8f8 2px,
+    #f2f4f5 2px,
+    #f2f4f5 6px
+  );
+  background: repeating-linear-gradient(
+    -45deg,
+    #f7f8f8,
+    #f7f8f8 2px,
+    #f2f4f5 2px,
+    #f2f4f5 6px
+  );
+}
+/* 【400】【終了】一覧 */
+
+/* 【410】【開始】一覧2 */
+.main2 {
+  clear: both;
+  width: 960px;
+  padding-bottom: 10px;
+  margin: auto;
+}
+
+.main2 .clearfix p {
+  text-align: center;
+}
+
+.main2 .clearfix a {
+  color: #666;
+}
+
+.backcopy {
+  background: url("/images/clover.png") no-repeat left;
+  border-bottom: solid 4px #ed971a;
+  position: relative;
+  font-size: 145%;
+  font-weight: bold;
+  text-align: left;
+  margin: 40px 0 30px 0;
+  height: 50px;
+}
+
+.brand {
+  width: 114px;
+  float: left;
+  height: 100px;
+  margin: 2px;
+  padding-top: 2px;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  font-size: 70%;
+}
+/* 【410】【終了】一覧2 */
+
+/* 【500】【開始】LINE公式誘導 */
+.line {
+  width: 815px;
+  padding: 10px 15px 0 15px;
+  margin: 55px auto 20px auto;
+  border: 1px solid #eaeaea;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+}
+.lineL {
+  width: 90px;
+  float: left;
+  padding-top: 6px;
+}
+.lineC {
+  width: 620px;
+  float: left;
+  padding: 3px 0 0 10px;
+}
+.lineC span {
+  color: #00b900;
+  font-size: 110%;
+  font-weight: bold;
+}
+.lineC p {
+  font-size: 90%;
+  line-height: 25px;
+  padding-top: 5px;
+}
+.lineR {
+  width: 90px;
+  float: right;
+}
+/* 【500】【終了】LINE公式誘導 */
+
+/* 【510】【開始】QRコードからスマホサイト誘導 */
+.footer1 {
+  background-color: greenyellow;
+}
+.bottom {
+  clear: both;
+  width: 960px;
+  margin: 0 auto;
+  padding-bottom: 5px;
+  text-align: center;
+}
+
+.mobi {
+  clear: both;
+  font-size: 80%;
+  letter-spacing: 0.07em;
+  padding: 10px 0;
+}
+.mobiTxt {
+  width: 800px;
+  float: left;
+  margin: 7px 0 0 20px;
+  text-align: left;
+  line-height: 20px;
+}
+.mobiQr {
+  width: 100px;
+  float: left;
+  margin: 10px 0 0 15px;
+}
+/* 【510】【終了】QRコードからスマホサイト誘導 */

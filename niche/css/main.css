@@ -3,6 +3,19 @@ header > h1 {
   color: white;
 }
 
+.btn-contact {
+  width: 300px;
+  margin: 10px;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.eigyo img {
+  display: block;
+}
+
 .menu {
   display: inline-block;
   position: relative;
