@@ -94,3 +94,7 @@ footer {
   max-width: 100%;
   height: auto;
 }
+
+.gallery_picture {
+  width: 300px;
+}
