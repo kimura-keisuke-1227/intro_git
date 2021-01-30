@@ -14,6 +14,10 @@ body {
   list-style-type: none;
 }
 
+footer {
+  text-align: center;
+}
+
 /* タブの基本スタイル */
 .tabs-menu li {
   float: left;
