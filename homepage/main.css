@@ -5,10 +5,15 @@
 /* ページ全体での文字色の設定 */
 body {
   color: #3f4548;
+  padding-top: 56px;
 }
 
 p {
-  font-size: 25px;
+  font-size: 20px;
+}
+
+.main {
+  top: 56px;
 }
 
 /* ulのデフォルトスタイルを消去 */
