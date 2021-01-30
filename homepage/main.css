@@ -95,6 +95,31 @@ footer {
   height: auto;
 }
 
-.gallery_picture {
-  width: 300px;
+.gallery-pic {
+  /* padding-bottom: 100px; */
+  border: b;
+}
+
+.gallery-pic {
+  margin: 2em 0;
+  position: relative;
+  padding: 0.25em 1em;
+  border: solid 2px #ffcb8a;
+  border-radius: 3px 0 3px 0;
+}
+
+.gallery-message {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  margin-top: 7px;
+  padding-top: 2px;
+  width: 100px;
+  height: 36px;
+  /* position: absolute; */
+  top: -10px;
+  left: 0;
+  color: white;
+  box-sizing: border-box;
+  background-color: #ff9b9b;
 }
