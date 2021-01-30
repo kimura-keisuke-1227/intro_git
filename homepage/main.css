@@ -7,6 +7,10 @@ body {
   color: #3f4548;
 }
 
+p {
+  font-size: 25px;
+}
+
 /* ulのデフォルトスタイルを消去 */
 .tabs-menu {
   margin: 0;
@@ -114,7 +118,7 @@ footer {
   margin: 0 auto;
   margin-top: 7px;
   padding-top: 2px;
-  width: 100px;
+  width: 130px;
   height: 36px;
   /* position: absolute; */
   top: -10px;
@@ -122,4 +126,5 @@ footer {
   color: white;
   box-sizing: border-box;
   background-color: #ff9b9b;
+  font-size: 20px;
 }
