@@ -1,0 +1,136 @@
+* {
+  text-align: center;
+}
+
+/* ページ全体での文字色の設定 */
+body {
+  color: #3f4548;
+  padding-top: 56px;
+}
+
+p {
+  font-size: 20px;
+}
+
+.main {
+  top: 56px;
+}
+
+/* ulのデフォルトスタイルを消去 */
+.tabs-menu {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+footer {
+  text-align: center;
+}
+
+/* タブの基本スタイル */
+.tabs-menu li {
+  float: left;
+  margin-right: 8px;
+  margin-bottom: -1px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: transparent;
+  border-radius: 4px 4px 0 0;
+
+  /* 各プロパティをふわっと変える演出 */
+  transition: all 0.15s;
+}
+.tabs-menu a {
+  display: block;
+  padding: 10px 20px;
+  color: #557f95;
+  text-decoration: none;
+}
+
+/* 非選択のタブにマウスカーソルを乗せたら色を変える */
+.tabs-menu li:not(.active):hover {
+  border-color: #f0f0f0 #f0f0f0 #999;
+  background-color: #f0f0f0;
+}
+
+/* 選択中のタブの色を設定 */
+.tabs-menu .active {
+  border-color: #999 #999 transparent #999;
+  background-color: #fff;
+}
+.tabs-menu .active a {
+  color: #3f4548;
+}
+
+/* タブコンテンツ表示エリア */
+.tabs-content {
+  clear: both;
+  border: 1px solid #999;
+  border-radius: 0 4px 4px 4px;
+  padding: 10px;
+}
+
+/* 各タブのコンテンツはデフォルトで非表示 */
+.tabs-content section {
+  display: none;
+}
+
+.gmap {
+  height: 0;
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+}
+.gmap iframe {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+}
+
+#containts {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contains {
+  text-align: left;
+}
+
+.pics {
+  max-width: 100%;
+  height: auto;
+}
+
+.gallery-pic {
+  /* padding-bottom: 100px; */
+  border: b;
+}
+
+.gallery-pic {
+  margin: 2em 0;
+  position: relative;
+  padding: 0.25em 1em;
+  border: solid 2px #ffcb8a;
+  border-radius: 3px 0 3px 0;
+  /* width: 300px; */
+}
+
+.gallery-message {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  margin-top: 7px;
+  padding-top: 2px;
+  width: 130px;
+  height: 36px;
+  /* position: absolute; */
+  top: -10px;
+  left: 0;
+  color: white;
+  box-sizing: border-box;
+  background-color: #ff9b9b;
+  font-size: 20px;
+}
