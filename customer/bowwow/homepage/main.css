@@ -16,11 +16,32 @@ p {
   top: 56px;
 }
 
+.spshow a {
+  color: white;
+}
+
+.pcshow {
+  display: none;
+}
+
+.contact {
+  font-size: 30px;
+}
+
 /* ulのデフォルトスタイルを消去 */
 .tabs-menu {
   margin: 0;
   padding: 0;
   list-style-type: none;
+}
+
+.sign {
+  width: 100%;
+  max-width: 1000px;
+}
+
+.phone-number {
+  font-size: 30px;
 }
 
 footer {
@@ -133,4 +154,18 @@ footer {
   box-sizing: border-box;
   background-color: #ff9b9b;
   font-size: 20px;
+}
+
+@media (min-width: 768px) {
+  .spshow {
+    display: none;
+  }
+
+  .pcshow {
+    display: block;
+  }
+
+  a[href^="tel:"] {
+    pointer-events: none;
+  }
 }
