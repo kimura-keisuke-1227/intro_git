@@ -1,3 +1,5 @@
+@charset "utf-8";
+
 * {
   text-align: center;
 }
@@ -12,8 +14,18 @@ p {
   font-size: 20px;
 }
 
+.caution {
+  text-align: left;
+}
+
 .main {
   top: 56px;
+}
+
+.price_tbl_div {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-bottom: 20px;
 }
 
 .spshow a {
