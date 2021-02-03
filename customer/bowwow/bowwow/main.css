@@ -9,7 +9,9 @@ body {
   color: #3f4548;
   padding-top: 56px;
 }
-
+li {
+  text-align: left;
+}
 p {
   font-size: 20px;
 }
