@@ -16,6 +16,11 @@ p {
   top: 56px;
 }
 
+.price_tbl_div {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
 .spshow a {
   color: white;
 }
