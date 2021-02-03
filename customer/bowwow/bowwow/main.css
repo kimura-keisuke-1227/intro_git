@@ -20,6 +20,10 @@ p {
   text-align: left;
 }
 
+#map {
+  margin-bottom: 30px;
+}
+
 .brand {
   max-width: 90%;
   max-height: 56px;
@@ -27,6 +31,10 @@ p {
 
 .main {
   top: 56px;
+}
+
+.guidrow {
+  padding-bottom: 10px;
 }
 
 .price_tbl_div {
