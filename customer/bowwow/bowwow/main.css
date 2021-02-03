@@ -18,6 +18,11 @@ p {
   text-align: left;
 }
 
+.cautionlist li {
+  text-align: left;
+  font-size: 20px;
+}
+
 .main {
   top: 56px;
 }
