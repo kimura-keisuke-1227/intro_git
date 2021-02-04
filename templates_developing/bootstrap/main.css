@@ -1,0 +1,15 @@
+/* 【420】【開始】左タイトルのテーブル */
+.table-wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.table-wrapper table {
+  border: black;
+}
+
+.table-wrapper th {
+  background-color: gray;
+  width: 200px;
+}
+/* 【420】【終了】左タイトルのテーブル */
