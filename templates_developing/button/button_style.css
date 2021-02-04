@@ -330,6 +330,31 @@ header .inquiryLink {
 }
 /* 【終了】【160】backobi */
 
+/* 【開始】170 スマホのみ電話番号でかける */
+/* スマホサイズの場合には電話をかけるボタンを表示、PC画面では電話番号案内のみ */
+.spshow a {
+  color: white;
+}
+
+.pcshow {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .spshow {
+    display: none;
+  }
+
+  .pcshow {
+    display: block;
+  }
+
+  a[href^="tel:"] {
+    pointer-events: none;
+  }
+}
+/* 【終了】170 スマホのみ電話番号でかける */
+
 /* 【200】LINEと問い合わせ横置き ここから*/
 /* LINEリンクここから */
 .btn-cl-container {
