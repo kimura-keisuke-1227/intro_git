@@ -16,6 +16,14 @@ p {
   font-size: 20px;
 }
 
+.table-wrapper th {
+  background-color: gray;
+}
+
+#guidance {
+  padding-top: 30px;
+}
+
 .caution {
   text-align: left;
   padding-bottom: 20px;
@@ -27,6 +35,7 @@ p {
 }
 
 #map {
+  margin-top: 30px;
   margin-bottom: 30px;
 }
 
