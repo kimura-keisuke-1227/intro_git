@@ -20,6 +20,10 @@ p {
   background-color: pink;
 }
 
+.sign {
+  margin-bottom: 30px;
+}
+
 #guidance {
   padding-top: 30px;
 }
