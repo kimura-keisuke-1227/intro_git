@@ -5,8 +5,8 @@
 
 
 //【必須】 自分のメールアドレスの設定 -- 複数のメールアドレスに送信したい場合は、以下の行をコピーして増やしていけばOKです。行頭の//を消せば有効となります。いくつでも追加可能。 --
-$rm_send_address[] = 'kim.ksuke@gmail.com';
-$rm_send_address[] = 'kimtube.education@gmail.com';
+// $rm_send_address[] = 'kim.ksuke@gmail.com';
+// $rm_send_address[] = 'kimtube.education@gmail.com';
 $rm_send_address[] = 'keisukekimura.create@gmail.com';
 //$rm_send_address[] = 'bbb@example.co.jp';
 
