@@ -1,0 +1,22 @@
+.container {
+  background-color: blue;
+  display: flexbox;
+  margin: 0 auto;
+  border: solid;
+}
+.piczone {
+  height: 100px;
+  background-color: pink;
+}
+
+p {
+  display: inline;
+}
+
+.textzone {
+  height: 100px;
+  background-color: chartreuse;
+  /* border: solid; */
+  text-align: center;
+  padding-bottom: auto;
+}
