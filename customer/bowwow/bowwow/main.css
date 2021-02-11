@@ -113,6 +113,13 @@ footer {
   /* 各プロパティをふわっと変える演出 */
   transition: all 0.15s;
 }
+
+#guidance .guidrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .tabs-menu a {
   display: block;
   padding: 10px 20px;
