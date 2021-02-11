@@ -215,6 +215,23 @@ footer {
   font-size: 20px;
 }
 
+.guiderow {
+  border: solid;
+  margin-bottom: 5px;
+  padding: 3px;
+  vertical-align: middle;
+  display: flex;
+}
+.guiderow p {
+  vertical-align: middle;
+}
+
+.guide2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 @media (min-width: 768px) {
   .spshow {
     display: none;
